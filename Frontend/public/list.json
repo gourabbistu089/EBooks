@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Sports Equipment",
+        "title": "Football by Adidas",
+        "price": 250,
+        "category": "sports",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 2,
+        "name": "Entertainment Item",
+        "title": "PlayStation 5 by Sony",
+        "price": 499,
+        "category": "free",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 3,
+        "name": "Music Instrument",
+        "title": "Acoustic Guitar by Yamaha",
+        "price": 300,
+        "category": "free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 4,
+        "name": "Science Gadget",
+        "title": "Telescope by Celestron",
+        "price": 500,
+        "category": "science",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 5,
+        "name": "Free Gadget",
+        "title": "Coding E-book by John Doe",
+        "price": 500,
+        "category": "free",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 6,
+        "name": "Sports Gear",
+        "title": "Basketball by Spalding",
+        "price": 150,
+        "category": "sports",
+   "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 7,
+        "name": "Entertainment Device",
+        "title": "Virtual Reality Headset by Oculus",
+        "price": 400,
+        "category": "entertainment",
+       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 8,
+        "name": "Music Equipment",
+        "title": "Electric Piano by Casio",
+        "price": 350,
+        "category": "free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 9,
+        "name": "Fitness Tracker",
+        "title": "Smartwatch by Fitbit",
+        "price": 200,
+        "category": "free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    },
+    {
+        "id": 10,
+        "name": "Free Item",
+        "title": "Online Course by Coursera",
+        "price": 0,
+        "category": "free",
+      "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+    }
+]
