@@ -1,6 +1,8 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 function Signup() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,9 +14,28 @@ function Signup() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async(data) => {
+    // console.log(data);
     // You can add logic to handle the signup submission
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      password: data.password,
+    }
+   await axios.post("http://localhost:4000/user/signup", userInfo)
+    .then((res)=>{
+      if(res.data){
+        console.log(res.data)
+        toast.success("Signup Successfully")
+      }
+      localStorage.setItem("UserInfo", JSON.stringify(res.data.userInfo))
+    })
+    .catch((e)=>{
+      console.log(e)
+      if(e.response)
+        console.log(e.response.data.message)
+          toast.error(e.response.data.message)
+    })
   };
 
   return (

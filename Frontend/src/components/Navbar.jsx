@@ -1,10 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Login from "../pages/Login";
+import { useAuth } from "../context/AuthProvider";
+import Logout from "../Logout";
 function Navbar() {
   const [sticky, setSticky] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+ const [authUserInfo, setAuthUserInfo] = useAuth();
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const element = document.documentElement;
@@ -169,14 +172,28 @@ function Navbar() {
           </label>
 
           {/* Login Button */}
-          <div className="">
-            <a className=" bg-black text-white px-4 py-2 rounded-lg hover:bg-slate-800 duration-300"
-           onClick={() => document.getElementById("my_modal_3").showModal()}
+
+          {
+            authUserInfo ? 
+          <>
+            <button
+            className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 duration-300"
+            onClick={() => document.getElementById("my_modal_5").showModal()}
+          >
+            Logout
+          </button>
+          <Logout/>
+          </>
+            :
+            <div className="">
+            <Link to="/login" className=" bg-black text-white px-4 py-2 rounded-lg hover:bg-slate-800 duration-300"
             >
               Login
-            </a>
-            <Login/>
+            </Link>
           </div>
+          }
+
+
         </div>
       </div>
     </div>

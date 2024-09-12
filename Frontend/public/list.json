@@ -1,82 +1,82 @@
 [
     {
-        "id": 1,
-        "name": "Sports Equipment",
         "title": "Football by Adidas",
-        "price": 250,
+        "author": "Unknown",
         "category": "sports",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A high-quality football designed for professional play.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/football-adidas.pdf"
     },
     {
-        "id": 2,
-        "name": "Entertainment Item",
         "title": "PlayStation 5 by Sony",
-        "price": 499,
+        "author": "Unknown",
         "category": "free",
-       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "The latest gaming console with advanced features.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/playstation5.pdf"
     },
     {
-        "id": 3,
-        "name": "Music Instrument",
         "title": "Acoustic Guitar by Yamaha",
-        "price": 300,
+        "author": "Unknown",
         "category": "free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A beautiful acoustic guitar suitable for all levels.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/acoustic-guitar.pdf"
     },
     {
-        "id": 4,
-        "name": "Science Gadget",
         "title": "Telescope by Celestron",
-        "price": 500,
+        "author": "Unknown",
         "category": "science",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A powerful telescope for astronomy enthusiasts.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/telescope.pdf"
     },
     {
-        "id": 5,
-        "name": "Free Gadget",
         "title": "Coding E-book by John Doe",
-        "price": 500,
+        "author": "John Doe",
         "category": "free",
-       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "An e-book that teaches coding basics and advanced topics.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/coding-ebook.pdf"
     },
     {
-        "id": 6,
-        "name": "Sports Gear",
         "title": "Basketball by Spalding",
-        "price": 150,
+        "author": "Unknown",
         "category": "sports",
-   "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A high-quality basketball for competitive play.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/basketball.pdf"
     },
     {
-        "id": 7,
-        "name": "Entertainment Device",
         "title": "Virtual Reality Headset by Oculus",
-        "price": 400,
+        "author": "Unknown",
         "category": "entertainment",
-       "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "An immersive VR headset for gaming and experiences.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/vr-headset.pdf"
     },
     {
-        "id": 8,
-        "name": "Music Equipment",
         "title": "Electric Piano by Casio",
-        "price": 350,
+        "author": "Unknown",
         "category": "free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A versatile electric piano with various sound options.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/electric-piano.pdf"
     },
     {
-        "id": 9,
-        "name": "Fitness Tracker",
         "title": "Smartwatch by Fitbit",
-        "price": 200,
+        "author": "Unknown",
         "category": "free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A smartwatch that tracks fitness and health.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/smartwatch.pdf"
     },
     {
-        "id": 10,
-        "name": "Free Item",
         "title": "Online Course by Coursera",
-        "price": 0,
+        "author": "Coursera",
         "category": "free",
-      "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid"
+        "description": "A free online course on various topics.",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?ga=GA1.1.1638468388.1724500364&semt=ais_hybrid",
+        "pdfLink": "https://example.com/online-course.pdf"
     }
 ]
