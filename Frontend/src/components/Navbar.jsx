@@ -92,7 +92,7 @@ function Navbar() {
     <div >
       <div className={`navbar bg-base-80 px-8 fixed  top-0 left-0 right-0 z-50 bg-white ${sticky ? "sticky-navbar shadow-md dark:bg-slate-800 dark:text-white  transition-all ease-in-out bg-gray-50" : ""}  dark:bg-slate-950 dark:text-white`}>
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown ">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,12 +111,12 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content rounded-box z-[50] mt-3 w-52 p-2 shadow-xl dark:bg-slate-800 dark:text-white"
+              className="menu menu-sm dropdown-content rounded-box z-[50] mt-3 w-52 p-2  bg-white shadow-2xl dark:bg-slate-800 dark:text-white"
             >
               {navItems}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">BookCart</a>
+          <a className="btn btn-ghost  text-lg md:text-xl ">BookCart</a>
         </div>
         <div className="navbar-end flex gap-4">
           <div className="navbar-center hidden lg:flex">

@@ -3,7 +3,10 @@ import React, { useEffect, useState } from "react";
 import Cart from "../components/Cart";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useAuth } from "../context/AuthProvider";
 function Course() {
+  const [authUserInfo, setAuthUserInfo] = useAuth();
+  console.log(authUserInfo.name)
   const navigate = useNavigate();
   const [books, setBooks] = useState([]);
   const getBooks = async () => {
@@ -21,12 +24,12 @@ function Course() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container md:px-20 px-4 pt-6 dark:text-white dark:bg-slate-950">
+      <div className="max-w-screen-2xl container md:px-20 px-4 pt-6 dark:text-white dark:bg-slate-950 mx-auto">
         <div className="items-center text-center justify-center mt-16">
           {/* Heading */}
           <h1 className="text-2xl font-semibold md:text-4xl text-center dark:text-gray-200">
-            Welcome, We are Happy to{" "}
-            <span className="text-pink-500">Serve</span>
+            Welcome,{" "}<span className="text-violet-500">{authUserInfo.name}</span> We are Happy to Serve{" "}
+          
           </h1>
 
           {/* Paragraph */}
